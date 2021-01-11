@@ -12,7 +12,7 @@ variable "enabled" {
 
 variable "acl" {
   type = string
-  default = ""
+  default = "private"
   description = "The canned ACL to apply. Defaults to private."
 }
 
